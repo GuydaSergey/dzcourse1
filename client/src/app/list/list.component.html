@@ -1,0 +1,20 @@
+<div *ngFor="let Launch of launches | async">
+    <div class="card" style="width: 100%; margin-top: 10px">
+      <div class="card-body">
+        <h5 class="card-title">{{Launch.flight_number}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">by {{Launch.flight_number}}</h6>
+        <p class="card-text">{{Launch.flight_number}}</p>        
+      </div>
+    </div>
+</div>
+
+<div *ngFor="let meteor of Meteors | async">
+  <div class="card" style="width: 100%; margin-top: 10px">
+    <div class="card-body">
+      <h5 class="card-title">{{meteor.name}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">by {{meteor.id}}</h6>           
+    </div>
+  </div>
+</div>
+
+

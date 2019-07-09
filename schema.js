@@ -88,7 +88,7 @@ const {
                 type: GraphQLString
             },
             mass: {
-                type: GraphQLInt
+                type: GraphQLString
             },
             id: {
                 type: GraphQLString

@@ -1,6 +1,6 @@
 export type Launch = {
     flight_number: number,
-    mission_name : string,
+    mission_name: string,
     launch_year: string,
     launch_success: boolean,
     rocket: Rocket,
@@ -25,11 +25,11 @@ export type Meteor = {
     nametype: string,
     recclass: string,
     year: string,
-    mass: number,
+    mass: string | number,
     id: string,
 }
 
 export type Query = {
-    Lauches: Launch[],
+    Launches: Launch[],
     Meteors: Meteor[]
 }

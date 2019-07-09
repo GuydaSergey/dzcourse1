@@ -23,7 +23,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
     HttpLinkModule
   ],
   providers: [],
-  bootstrap: [AppComponent,ListComponent]
+  bootstrap: [AppComponent, ListComponent]
 })
 export class AppModule {
   constructor(apollo: Apollo, httpLink: HttpLink ) {

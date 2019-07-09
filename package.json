@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuydaSergey/dzcourse1.git"
@@ -27,5 +26,4 @@
   "devDependencies": {
     "nodemon": "^1.19.1"
   }
- }
-
+}
